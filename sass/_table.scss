@@ -1,0 +1,48 @@
+table {
+  border-collapse: collapse;
+  width: $table-width;
+  margin: $table-margin;
+
+  tr {
+    height: $table-tr-height;
+    line-height: $table-tr-height;
+
+    th, td {
+      text-align: center;
+      border: $table-th-td-border;
+    }
+
+    th {
+      width: $table-th-width;
+      background: $table-th-background;
+
+      &:first-child {
+        width: $table-th-first-child-width;
+      }
+    }
+
+    td {
+      button {
+        width: $table-button-width;
+        height: $table-button-height;
+        border: $table-button-border;
+        box-sizing: $table-button-box-sizing;
+        background: $table-button-background;
+        padding: 0;
+        cursor: pointer;
+
+        &:hover {
+          background: $table-button-hover-background;
+        }
+
+        &:first-child {
+          border-right: $table-button-first-child-border-right;
+        }
+
+        i {
+          color: $table-button-i-color;
+        }
+      }
+    }
+  }
+}

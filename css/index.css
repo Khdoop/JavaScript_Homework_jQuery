@@ -1,0 +1,90 @@
+body {
+  font-family: Calibri, sans-serif;
+  font-size: 16px; }
+  body #container {
+    width: 500px;
+    margin: 0 auto; }
+    body #container .addCars, body #container .listCars {
+      width: 500px;
+      background: #7d5a99;
+      margin: 5px 0;
+      color: white;
+      overflow: auto; }
+      body #container .addCars h3, body #container .listCars h3 {
+        height: 80px;
+        line-height: 80px;
+        font-size: 1.3em;
+        cursor: pointer;
+        background: #1692c4;
+        text-align: center; }
+        body #container .addCars h3:hover, body #container .listCars h3:hover {
+          background: #0ea7c4; }
+    body #container .listCars > .table {
+      display: none; }
+
+form {
+  width: 350px;
+  margin: 0 auto;
+  position: relative;
+  display: none; }
+  form div {
+    height: 30px;
+    padding: 5px 0; }
+    form div label {
+      display: inline-block;
+      width: 70px;
+      padding-left: 0.3em;
+      box-sizing: border-box;
+      line-height: 30px; }
+    form div input {
+      width: 100px;
+      box-sizing: border-box; }
+    form div span {
+      color: tomato;
+      font-style: italic;
+      background: antiquewhite;
+      font-size: 0.9em; }
+    form div:last-child {
+      text-align: center; }
+      form div:last-child button {
+        width: 100px;
+        height: 30px;
+        background: #1692c4;
+        border: none;
+        color: white;
+        font-size: 1.1em;
+        cursor: pointer; }
+        form div:last-child button:hover {
+          background: #0ea7c4; }
+
+table {
+  border-collapse: collapse;
+  width: 95%;
+  margin: 20px auto; }
+  table tr {
+    height: 20px;
+    line-height: 20px; }
+    table tr th, table tr td {
+      text-align: center;
+      border: 2px solid antiquewhite; }
+    table tr th {
+      width: 19%;
+      background: #1692c4; }
+      table tr th:first-child {
+        width: 5%; }
+    table tr td button {
+      width: 50%;
+      height: 100%;
+      border: none;
+      box-sizing: border-box;
+      background: #1692c4;
+      padding: 0;
+      cursor: pointer; }
+      table tr td button:hover {
+        background: #0ea7c4; }
+      table tr td button:first-child {
+        border-right: 1px solid antiquewhite; }
+      table tr td button i {
+        color: white; }
+
+/*# sourceMappingURL=index.css.map */

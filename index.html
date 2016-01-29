@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Best Title Ever</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <div id="container">
+            <div class="addCars">
+                <h3>Add a car</h3>
+                <form action="">
+                    <div>
+                        <label for="brand">Brand</label>
+                        <input type="text" id="brand" name="brand">
+                    </div>
+                    <div>
+                        <label for="model">Model</label>
+                        <input type="text" id="model" name="model">
+                    </div>
+                    <div>
+                        <label for="year">Year</label>
+                        <input type="number" id="year" name="year">
+                    </div>
+                    <div>
+                        <label for="distance">Distance</label>
+                        <input type="number" id="distance" name="distance">
+                    </div>
+                    <div>
+                        <button class="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="listCars">
+                <h3>List</h3>
+                <div class="table">
+
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>&#35;</th>
+                            <th>Brand</th>
+                            <th>Model</th>
+                            <th>Year</th>
+                            <th>Distance</th>
+                            <th>Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/cars.js"></script>
+</html>

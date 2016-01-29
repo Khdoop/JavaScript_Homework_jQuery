@@ -1,0 +1,34 @@
+body {
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+
+  #container {
+    width: $container-width;
+    margin: $margin-center;
+
+    .addCars, .listCars {
+      width: $containers-width;
+      background: $containers-background;
+      margin: $containers-margin;
+      color: $containers-color;
+      overflow: auto;
+
+      h3 {
+        height: $containers-h3-height;
+        line-height: $containers-h3-height;
+        font-size: $containers-h3-font-size;
+        cursor: pointer;
+        background: $containers-h3-background;
+        text-align: center;
+
+        &:hover {
+          background: $containers-h3-hover-background;
+        }
+      }
+    }
+    .listCars > .table {
+      display: none;
+    }
+  }
+}
+

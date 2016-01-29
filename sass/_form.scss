@@ -1,0 +1,48 @@
+form {
+  width: $form-width;
+  margin: $margin-center;
+  position: relative;
+  display: none;
+
+  div {
+    height: $form-div-height;
+    padding: $form-div-margin;
+
+    label {
+      display: inline-block;
+      width: $label-width;
+      padding-left: $label-padding-left;
+      box-sizing: border-box;
+      line-height: $form-div-height;
+    }
+
+    input {
+      width: $input-width;
+      box-sizing: border-box;
+    }
+
+    span {
+      color: $form-span-color;
+      font-style: $form-span-font-style;
+      background: $form-span-background;
+      font-size: $form-span-font-size;
+    }
+
+    &:last-child {
+      text-align: center;
+      button {
+        width: $form-button-width;
+        height: $form-button-height;
+        background: $form-button-background;
+        border: $form-button-border;
+        color: $form-button-color;
+        font-size: $form-button-font-size;
+        cursor: pointer;
+
+        &:hover {
+          background: $form-button-hover-background;
+        }
+      }
+    }
+  }
+}
